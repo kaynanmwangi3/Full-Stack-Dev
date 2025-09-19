@@ -212,7 +212,9 @@ form {
 
 @media screen and (max-width: 650px) {
   .container {
-    height: calc(100vh - 40px);
+    height: 100vh;
+    padding-top: 0px;
+    width: 95vw;
   }
 
   .form-box {
