@@ -18,7 +18,7 @@ function PostContent({ post, user, onPostUpdate }) {
 
   const handleSave = async () => {
     try {
-      const API_BASE_URL = process.env.REACT_APP_API_URL || "https://full-stack-dev-backend.onrender.com";
+      const API_BASE_URL =  "https://full-stack-dev-backend.onrender.com";
       const response = await fetch(`${API_BASE_URL}/api/posts/${post.id}`, {
         method: 'PUT',
         headers: {
@@ -44,7 +44,7 @@ function PostContent({ post, user, onPostUpdate }) {
   const handleDelete = async () => {
     if (window.confirm('Are you sure you want to delete this post?')) {
       try {
-        const API_BASE_URL = process.env.REACT_APP_API_URL || "https://full-stack-dev-backend.onrender.com";
+        const API_BASE_URL = "https://full-stack-dev-backend.onrender.com";
         const response = await fetch(`${API_BASE_URL}/api/posts/${post.id}`, {
           method: 'DELETE',
         });

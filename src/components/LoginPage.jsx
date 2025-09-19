@@ -29,7 +29,7 @@ function LoginPage({setIsAuthenticated, setUser}) {
   async function handleRegisterSubmit(e) {
     e.preventDefault();
     try {
-      const API_BASE_URL = process.env.REACT_APP_API_URL || "https://full-stack-dev-backend.onrender.com";
+      const API_BASE_URL = "https://full-stack-dev-backend.onrender.com";
       const res = await fetch(`${API_BASE_URL}/api/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -55,7 +55,7 @@ function LoginPage({setIsAuthenticated, setUser}) {
   async function handleLoginSubmit(e) {
     e.preventDefault();
     try {
-      const API_BASE_URL = process.env.REACT_APP_API_URL || "https://full-stack-dev-backend.onrender.com";
+      const API_BASE_URL = "https://full-stack-dev-backend.onrender.com";
       const res = await fetch(`${API_BASE_URL}/api/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

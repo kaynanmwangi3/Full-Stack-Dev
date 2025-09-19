@@ -18,7 +18,7 @@ function CreatePost({ user, onPostCreated }) {
     }
 
     try {
-      const API_BASE_URL = process.env.REACT_APP_API_URL || "https://full-stack-dev-backend.onrender.com";
+      const API_BASE_URL = "https://full-stack-dev-backend.onrender.com";
       const response = await fetch(`${API_BASE_URL}/api/posts`, {
         method: 'POST',
         headers: {
