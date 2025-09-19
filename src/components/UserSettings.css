@@ -1,0 +1,102 @@
+.user-settings {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.user-settings h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.user-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.edit-profile-btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.edit-profile-btn:hover {
+  background-color: #2980b9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.form-actions button[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+.form-actions button[type="button"] {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.form-actions button[type="button"]:hover {
+  background-color: #7f8c8d;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fadbd8;
+  border-radius: 4px;
+}
+
+.success-message {
+  color: #27ae60;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #d5f4e6;
+  border-radius: 4px;
+  margin-top: 15px;
+}

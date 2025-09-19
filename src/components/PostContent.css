@@ -1,0 +1,81 @@
+.post-content h1 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.post-meta {
+  color: #7f8c8d;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.post-body {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #34495e;
+}
+
+.post-body p {
+  margin-bottom: 15px;
+}
+
+.post-actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.post-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.post-actions button:first-child {
+  background-color: #3498db;
+  color: white;
+}
+
+.post-actions button:first-child:hover {
+  background-color: #2980b9;
+}
+
+.post-actions .delete-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.post-actions .delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.edit-title {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.edit-content {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 300px;
+  resize: vertical;
+  box-sizing: border-box;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.post-body img {
+  width: 750px;
+}
