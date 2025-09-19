@@ -19,7 +19,7 @@ function HomePage({ user, onUserUpdate }) {
     try {
       setLoading(true);
       setError('');
-      const API_BASE_URL =  "https://full-stack-dev-backend.onrender.com";
+      const API_BASE_URL = process.env.REACT_APP_API_URL || "https://full-stack-dev-backend.onrender.com";
       const response = await fetch(`${API_BASE_URL}/api/posts`);
       
       if (response.ok) {
